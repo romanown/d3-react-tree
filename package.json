@@ -1,0 +1,45 @@
+{
+  "name": "test",
+  "version": "2.0.0-alpha.2",
+  "description": "EM7 Login Page",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint --cache src",
+    "test": "gulp test",
+    "build": "gulp build",
+    "start": "gulp watch",
+    "gulp": "gulp"
+  },
+  "author": "davidtaylor@aol.com",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "d3": "^4.2.1",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-redux": "^4.4.5",
+    "redux-thunk": "^2.1.0",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-class-properties": "^6.9.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-jest": "^12.1.0",
+    "browser-sync": "^2.11.2",
+    "ghooks": "^1.1.1",
+    "node-libs-browser": "^1.0.0",
+    "node-notifier": "^4.5.0",
+    "run-sequence": "^1.1.5",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --port 3100 --watch --hot --inline --output-public-path=/dist",
+    "test": "jest"
+  }
+}
