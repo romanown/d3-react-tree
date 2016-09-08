@@ -10,7 +10,7 @@ module.exports = {
       'react',
       'react-dom'
     ],
-    'tree-menu': './main.jsx'
+    'tree': './main.jsx'
   },
   module: {
     loaders: [
@@ -35,11 +35,11 @@ module.exports = {
   },
   plugins: debug ? [
     new webpack.optimize.CommonsChunkPlugin({
-      name: ['tree-menu', 'tree-menu-vendor'],
+      name: ['tree', 'tree-vendor'],
       minChunks: 2
     })] :
     [new webpack.optimize.CommonsChunkPlugin({
-      name: ['tree-menu', 'tree-menu-vendor'],
+      name: ['tree', 'tree-vendor'],
       minChunks: 2
     }),
       new webpack.optimize.DedupePlugin(),

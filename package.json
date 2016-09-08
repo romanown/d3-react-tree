@@ -1,15 +1,8 @@
 {
-  "name": "test",
-  "version": "2.0.0-alpha.2",
-  "description": "EM7 Login Page",
+  "name": "d3-react-tree",
+  "version": "1.0.0",
+  "description": "d3 react collasible tree",
   "main": "build/index.js",
-  "scripts": {
-    "lint": "eslint --cache src",
-    "test": "gulp test",
-    "build": "gulp build",
-    "start": "gulp watch",
-    "gulp": "gulp"
-  },
   "author": "davidtaylor@aol.com",
   "license": "UNLICENSED",
   "dependencies": {
